@@ -4,7 +4,7 @@ if (alarmArray.length >= 1) {
   for (let alarmNumber of alarmArray) {
     alarmNumber = Number(alarmNumber)
     //console.log(alarmNumber);
-    if (Math.sign(alarmNumber)) {
+    if (alarmNumber > 0) {
       //console.log(alarmNumber)
       setTimeout(() => {
         process.stdout.write('\x07'); // makes the sound
