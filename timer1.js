@@ -11,7 +11,4 @@ if (alarmArray.length >= 1) {
       }, alarmNumber * 1000)
     }
   }
-
-} else {
-  return;
 }
